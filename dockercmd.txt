@@ -1,0 +1,21 @@
+#Building Docker file
+sudo docker build --tag icapi .
+
+#Run Docker container
+sudo docker run -d -p 5000:5000 icapi
+
+#Stop Docker container
+docker stop icapi
+
+#list running docker
+docker ps
+
+#list created docker images
+docker images
+
+
+#run online command
+docker run -d --name icapi -v /home/tejas/indiaconnect/icapi:/app/ -p 5000:5000 icapi 
+
+docker rmi -f $(docker images -f "dangling=true" -q)
+docker rm -f $(docker ps -a -q)

@@ -1,0 +1,5 @@
+icapi/
+log
+__pycache__/
+.vscode
+env/

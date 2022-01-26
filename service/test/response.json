@@ -1,0 +1,62 @@
+{
+    "data": {
+        "employee": {
+            "DEPARTMENT": "machine learning",
+            "DESIGNATION": "SDE2",
+            "EMPLOYEE_ID": "emp1",
+            "MANAGER_ID": null,
+            "NAME": "robby",
+            "SNO": 1,
+            "reportees": [
+                {
+                    "employee": {
+                        "DEPARTMENT": "machine learning",
+                        "DESIGNATION": "SDE1",
+                        "EMPLOYEE_ID": "emp2",
+                        "MANAGER_ID": "emp1",
+                        "NAME": "amit",
+                        "SNO": 2,
+                        "reportees": [
+                            {
+                                "employee": {
+                                    "DEPARTMENT": "machine learning",
+                                    "DESIGNATION": "associate engineer",
+                                    "EMPLOYEE_ID": "emp5",
+                                    "MANAGER_ID": "emp2",
+                                    "NAME": "Ranbir",
+                                    "SNO": null,
+                                    "reportees": []
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "employee": {
+                        "DEPARTMENT": "machine learning",
+                        "DESIGNATION": "SDE1",
+                        "EMPLOYEE_ID": "emp3",
+                        "MANAGER_ID": "emp1",
+                        "NAME": "rohan",
+                        "SNO": 3,
+                        "reportees": []
+                    }
+                },
+                {
+                    "employee": {
+                        "DEPARTMENT": "machine learning",
+                        "DESIGNATION": "associate engineer",
+                        "EMPLOYEE_ID": "emp4",
+                        "MANAGER_ID": "emp1",
+                        "NAME": "abhishek",
+                        "SNO": 4,
+                        "reportees": []
+                    }
+                }
+            ]
+        }
+    },
+    "error": "",
+    "message": "",
+    "status": 200
+}
