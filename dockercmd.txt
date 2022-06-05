@@ -15,7 +15,7 @@ docker images
 
 
 #run online command
-docker run -d --name icapi -v /home/tejas/indiaconnect/icapi:/app/ -p 5000:5000 icapi 
+docker run -d --name repo_name -v path:/app/ -p 5000:5000 icapi 
 
 docker rmi -f $(docker images -f "dangling=true" -q)
 docker rm -f $(docker ps -a -q)

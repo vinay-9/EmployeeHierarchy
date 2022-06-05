@@ -13,7 +13,7 @@ import logConfig
 
 def GetEmployees():
     response = JsonResponse()
-    session = Session() 
+    session = Session()
 
     try:
         data= []
